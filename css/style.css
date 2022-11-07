@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(255,255,255,0)!important;
+     -webkit-focus-ring-color:rgba(255,255,255,0)!important;
+     outline: none!important;
+}
+
+.container{
+  max-width: 1366px;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menus{
+  position: absolute;
+  top: 0;
+  z-index: 673476746;
+  padding: 3.5rem 5rem;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+html{
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: "Inter";
+}
+
+.page{
+    background: #B7B7B7;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url(../img/roof.png),url(../img/floor.png),url(../img/wall.png);
+    background-repeat: no-repeat,no-repeat,no-repeat;
+    background-position: top,bottom,left;
+    background-size: 100%,100%,10% 100%;
+    display: none;
+}
+
+.tabs{
+  position: absolute;
+  z-index: 21212;
+  /* border: 1px solid black; */
+  width: 30%;
+  justify-content: space-between;
+  top: 26.25rem;
+  left: 13.75rem;
+  cursor: pointer;
+}
+
+.active-tab{
+  background-color: #D9D9D9;
+}
+
+.tab{
+  text-align: center;
+  padding: .9rem;
+  border-radius: 1.1875rem;
+}
+
+.pizza{
+  width: 50px;
+}
+
+.tab .pizza-name{
+  color: #423F40;
+  font-weight: 500;
+  margin-top: .2rem;
+  font-size: .8rem;
+}
+
+.active{
+    display: block;
+}
+
+.images{
+    height: 100vh;
+    position: relative;
+    width: 100%;
+}
+
+.freeze{
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   height: 21.875rem;
+   width: 10.625rem;
+}
+
+.chairs{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.rating{
+    position: absolute;
+    top: 5.875rem;
+    right: 3rem;
+    width: 230px;
+}
+
+.text{
+  width: 30%;
+  position: absolute;
+  top: 125px;
+  left: 460px;
+  z-index: 212121323323233232322;
+}
+
+.pizzas{
+  position: absolute;
+  top: -428px;
+  z-index: 2322322;
+  width: 1000px;
+  top: -649px;
+  left: -182px;
+  transform: rotate(90deg);
+  transition: all .4s linear;
+}
+
+
+
+.trusted{
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 19px;
+  color: #423F40;
+}
+
+.frame{
+  margin-right: 30px;
+}
+
+.item-type{
+  font-weight: 300;
+  font-size: 3rem;
+  letter-spacing: -0.11em;
+  color: #423F40;
+}
+
+.item-name{
+  font-weight: 900;
+  font-size: 3.8rem;
+  letter-spacing: -0.06em;
+  color: #423F40;
+}
+
+
+
+
+
